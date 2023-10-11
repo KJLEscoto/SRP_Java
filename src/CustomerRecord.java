@@ -153,7 +153,7 @@ class DeleteRecord extends Customers {
 					new AddRecord(customer);
 				}
 				response = null;
-				break;
+	            CustomerRecord.MainCall(customer);
 			}
 			System.out.print("Enter Customer Number to delete : ");
 			response = input.readLine();
